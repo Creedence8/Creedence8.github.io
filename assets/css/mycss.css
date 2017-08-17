@@ -60,3 +60,8 @@
 #interests p {
     margin-bottom: 0.5em;
 }
+
+#skills .intro a {
+    border-bottom: none;
+    font-weight: bold;
+}
