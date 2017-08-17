@@ -1,0 +1,62 @@
+.copyright-true {
+    position: fixed;
+    bottom: 5%;
+    margin-left: 10%;
+    color: #9b9b9b;
+}
+
+.music {
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    opacity: 0.80;
+}
+
+.content p, .inner p, .intro p {font-size: 110%}
+
+@media (max-width:1280px) {
+    .copyright-true {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .music {
+        display: none;
+    }
+}
+
+@media (min-width:1280px) {
+    .copyright {
+        display: none;
+    }
+}
+
+.navbar {
+    position: fixed;
+    top: 5%;
+    margin-left: 5.5%;
+    opacity: 0.95;
+}
+
+.gallery a.span-2-5 {
+    border-left: 1px solid black;
+}
+
+#certificates .alt a {
+    border-bottom: none;
+    font-weight: bold;
+}
+
+#interests h2 {
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+
+#interests span{
+    float:right;
+}
+
+#interests p {
+    margin-bottom: 0.5em;
+}
