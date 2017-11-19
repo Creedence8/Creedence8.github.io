@@ -35,7 +35,7 @@
 .navbar {
     position: fixed;
     top: 5%;
-    margin-left: 5.5%;
+    margin-left: 13.5%;
     opacity: 0.95;
 }
 
@@ -55,13 +55,14 @@
 
 #interests span{
     float:right;
+    font-size: 130%;
 }
 
 #interests p {
     margin-bottom: 0.5em;
 }
 
-#skills .intro a {
+#skills .intro a, #interests a{
     border-bottom: none;
     font-weight: bold;
 }
