@@ -26,6 +26,15 @@
     }
 }
 
+@media (max-height:605px) {
+    .navbar {
+        display: none;
+    }
+    .music {
+        display: none;
+    }
+}
+
 @media (min-width:1280px) {
     .copyright {
         display: none;
