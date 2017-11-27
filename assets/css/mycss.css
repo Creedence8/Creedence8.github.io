@@ -58,6 +58,10 @@
     font-size: 130%;
 }
 
+#interests div.content {
+    padding-top: 1%;
+}
+
 #interests p {
     margin-bottom: 0.5em;
 }
@@ -65,4 +69,10 @@
 #skills .intro a, #interests a{
     border-bottom: none;
     font-weight: bold;
+}
+
+#certificates div.content {
+   padding-left: 10%;
+   padding-right: 0%;
+   padding-top: 12%;
 }
