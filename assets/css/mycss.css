@@ -44,7 +44,7 @@
 .navbar {
     position: fixed;
     top: 5%;
-    margin-left: 13.5%;
+    margin-left: 15%;
     opacity: 0.95;
 }
 
@@ -52,14 +52,14 @@
     border-left: 1px solid black;
 }
 
-#certificates .alt a {
+#certificates .alt a, #articles a, .no_underline {
     border-bottom: none;
     font-weight: bold;
 }
 
 #interests h2 {
-    text-transform: uppercase;
-    margin-bottom: 5%;
+    /* text-transform: uppercase; */
+    /* margin-bottom: 5%; */
 }
 
 #interests span{
@@ -75,13 +75,17 @@
     margin-bottom: 0.5em;
 }
 
-#skills .intro a, #interests a{
+#skills .intro a, #interests a, #about-me .intro a{
     border-bottom: none;
     font-weight: bold;
 }
 
 #certificates div.content {
-   padding-left: 10%;
+   padding-left: 11%;
    padding-right: 0%;
-   padding-top: 12%;
+   /* padding-top: 10%; */
 }
+
+#edu {
+    /* padding-top: 1.2%; */
+ }
